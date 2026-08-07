@@ -1,0 +1,35 @@
+# NAME: Interactive Brokers (IBKR) - Practical Core
+# DESC: TWS基建(含CN网关) + Web API + 官网/账户管理 (运维级精简版)
+# UPDATED: 2026-01-21
+# FORMAT: TEXT
+
+########## TWS / Gateway Infrastructure (核心基建) ##########
+# TWS 软件、网关、行情数据的主通道 (*.ibllc.com)
+DOMAIN-SUFFIX,ibllc.com
+
+# 中国大陆专用接入网关 (如 mcgw1.ibllc.com.cn)
+# ⚠️ 关键：漏了这条，国内 TWS 连接可能会不稳定
+DOMAIN-SUFFIX,ibllc.com.cn
+
+########## Web API & Tools ##########
+# Client Portal API 专用域名，量化/第三方工具必用
+DOMAIN,api.ibkr.com
+
+########## Official Websites (官网/账户管理) ##########
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,ibkr.info
+
+########## Regional Portals (区域入口) ##########
+# 仅保留实际存在的业务入口
+DOMAIN-SUFFIX,interactivebrokers.com.hk
+DOMAIN-SUFFIX,ibkr.hk
+DOMAIN-SUFFIX,interactivebrokers.co.uk
+DOMAIN-SUFFIX,ibkr.co.uk
+DOMAIN-SUFFIX,interactivebrokers.com.au
+DOMAIN-SUFFIX,interactivebrokers.eu
+DOMAIN-SUFFIX,ibkr.eu
+
+########## China Web (国内网页) ##########
+DOMAIN-SUFFIX,interactivebrokers.com.cn
+DOMAIN-SUFFIX,ibkr.com.cn
