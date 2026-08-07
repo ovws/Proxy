@@ -1,0 +1,64 @@
+下面是针对 Image 2.0 优化后的完整提示词，重点强化了“分段描边”，同时降低标志变形概率。
+
+Use case: precise icon style transfer  
+Asset type: Surge proxy policy icon
+
+Input images:
+- Image 1 is the edit target and identity source.
+- Images 2–5 are style references only. Learn their flat-vector construction, limited color palette, bold black linework, selective open contours, and clean proxy-icon finish. Do not copy their subjects.
+
+Primary request:
+Convert Image 1 into a polished flat-vector Surge icon while preserving the original logo identity and geometry exactly.
+
+Identity invariants:
+- Preserve the sharp upper point.
+- Preserve the left vertical body and lower triangular structure.
+- Preserve the internal diagonal division.
+- Preserve the exact size, shape and position of the separate circle.
+- Preserve the original proportions, orientation and visual balance.
+- Do not simplify, reinterpret or redesign the logo.
+
+Outline treatment:
+- Use bold, clean black linework with a consistent visual weight.
+- The outline must be selective and segmented, not one continuous closed sticker border.
+- Break long contour lines once near their middle, leaving small intentional open gaps.
+- Construct the circle outline from two separate arcs with two visible gaps.
+- Add one small interruption to the internal diagonal separator.
+- Use smooth rounded stroke caps at every gap.
+- Use only a few confident line segments; do not create dotted or regularly dashed lines.
+- At 108×108 resolution, the black strokes should appear approximately 5–7 pixels thick.
+- Gaps must reveal the underlying red silhouette; they must not cut transparent holes into the red shape.
+
+Visual style:
+- Flat vector icon
+- Filled-outline illustration
+- Clean geometric construction
+- Bright, simple and immediately recognizable
+- Crisp antialiased edges
+- Minimal two-tone shading
+- No realistic lighting or material effects
+
+Color palette:
+- Retain saturated crimson red as the primary brand color.
+- Use one brighter red and one darker red to create subtle depth.
+- Use near-black charcoal only for the segmented linework.
+- Do not introduce unrelated colors.
+
+Composition:
+- Square 1:1 canvas
+- Center the complete logo optically
+- Logo occupies approximately 72%–76% of the canvas
+- Maintain 12%–15% safe padding on every side
+- Ensure strong readability at both 512×512 and 108×108
+
+Background:
+Create the icon on a perfectly uniform solid #00ff00 chroma-key background for later removal.
+The background must contain no gradients, shadows, texture, reflections, lighting variation or floor plane.
+Keep every edge of the subject clearly separated from the background.
+Do not use #00ff00 anywhere in the logo.
+
+Change only:
+Apply the requested icon style and segmented outline treatment. Keep the logo geometry, red color identity, component placement and proportions unchanged.
+
+Avoid:
+Continuous enclosing borders, fully closed outlines, tiny repeated dashes, dotted lines, sketchy strokes, excessive gaps, extra shapes, text, letters, frames, black square backgrounds, cast shadows, reflections, glow, neon, glass, metal, 3D rendering, photorealism, complex textures, watermarks, rounded upper tips, moved circles or altered proportions.
