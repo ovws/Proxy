@@ -1,0 +1,4 @@
+# Egern 原生分流条件；策略在主配置指定。
+domain_suffix_set:
+- qlogo.cn
+- qpic.cn

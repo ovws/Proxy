@@ -1,0 +1,12 @@
+# Egern 原生分流条件；策略在主配置指定。
+domain_suffix_set:
+- bigmodel.cn
+- deepseek.cn
+- deepseek.com
+- doubao.com
+- kimi.ai
+- kimi.com
+- moonshot.cn
+- qianwen.com
+- tongyi.com
+- zhipuai.cn

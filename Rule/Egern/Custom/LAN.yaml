@@ -1,0 +1,28 @@
+# Egern 原生分流条件；策略在主配置指定。
+no_resolve: true
+ip_cidr_set:
+- 127.0.0.0/8
+- 10.0.0.0/8
+- 172.16.0.0/12
+- 192.168.0.0/16
+- 169.254.0.0/16
+- 100.64.0.0/10
+ip_cidr6_set:
+- ::1/128
+- fc00::/7
+- fe80::/10
+domain_regex_set:
+- ^[A-Za-z0-9_-]+$
+domain_set:
+- captive.apple.com
+- gs-loc-cn.apple.com
+- gs-loc.apple.com
+- connectivitycheck.gstatic.com
+domain_suffix_set:
+- in-addr.arpa
+- ip6.arpa
+- local
+- msftconnecttest.com
+- msftncsi.com
+- sub.store
+- weixin.qq.com

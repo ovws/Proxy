@@ -1,0 +1,35 @@
+# Egern 原生分流条件；策略在主配置指定。
+domain_suffix_set:
+- chat.com
+- claude.com
+- claudemcpclient.com
+- claudeusercontent.com
+- cursor.com
+- cursor.sh
+- githubcopilot.com
+- grok.com
+- livekit.cloud
+- openrouter.ai
+- perplexity.ai
+- poe.com
+- pplx.ai
+- sora.com
+- x.ai
+domain_set:
+- gemini.google.com
+- aistudio.google.com
+- generativelanguage.googleapis.com
+- makersuite.google.com
+- notebooklm.google.com
+- notebooklm.google
+- ai.google.dev
+- copilot.microsoft.com
+- sydney.bing.com
+- www.bing.com
+- pplx-res.cloudinary.com
+domain_keyword_set:
+- openaiapi
+- openaicom
+- claude
+- anthropic
+no_resolve: true

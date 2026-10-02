@@ -1,0 +1,12 @@
+# Egern 原生分流条件；策略在主配置指定。
+domain_suffix_set:
+- docker.com
+- docker.io
+- hf.co
+- huggingface.co
+- pypi.org
+- pythonhosted.org
+- stackexchange.com
+- stackoverflow.com
+- vercel.app
+- vercel.com

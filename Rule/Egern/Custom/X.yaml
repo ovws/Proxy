@@ -1,0 +1,6 @@
+# Egern 原生分流条件；策略在主配置指定。
+domain_suffix_set:
+- t.co
+- twimg.com
+- twitter.com
+- x.com
